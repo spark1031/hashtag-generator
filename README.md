@@ -1,3 +1,44 @@
+##Hashtag Generator
+
+##Background and Overview
+This application utilizes the Amazon Rekognition Image API to analyze user-uploaded images and produce possible keywords that could be used as a hashtag for this image on social networking sites, like instagram or twitter. Later, I hope to use this functionality in conjunction with analysis of trending hashtags related to the produced keywords to offer users top trending hashtags for their photos.
+
+##Functionality and MVP Features
+[ ] Photo Uploading to S3
+[ ] Keyword generation using Amazon Rekognition Image API
+
+###Bonus
+[ ] Search of trending hashtags related to keyword(s)
+
+##Architecture and Technologies
+###Amazon S3
+  - Used to store user-uploaded images
+###Amazong Rekognition Image API
+  - A deep learning powered image recognition service that detects objects, scenes, and faces.
+  - Used to analyze images and produce keywords associated with the image
+###Instagram Search API
+  - May be used later to find other hashtags that are related to the keyword(s) associated with uploaded image
+
+##Implementation Timeline
+####Day 1 (Thursday):
+[ ] Set up S3 bucket
+[ ] Set up image uploading to S3
+
+####Day 2 (Friday):
+[ ] Test Amazon Rekognition Image API with uploaded photo
+
+####Days 3/4 (Weekend):
+[ ] Test Amazon Rekognition Image API
+[ ] Build user interface for uploading images
+
+####Day 5 (Monday):
+[ ] Build user interface for seeing keyword results
+[ ] Brainstorm how to find related trending hashtags
+
+####Day 6 (Tuesday):
+[ ] Start working on bonus - suggesting related trending hashtags based on instagram hashtag analysis
+
+<!-- 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -65,4 +106,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 ### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify -->
